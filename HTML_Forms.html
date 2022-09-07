@@ -5,18 +5,100 @@
     <h1 style="text-align: center">Pete's Pizza Delivery</h1>
     <h2 style="text-align: center">Online Order Form</h2>
 
-      <p style="text-align: center">* required fields</p>
-    <h2 style="text-align:center">Topping</h2>
-    <form style="text-align:center ;">
-        <input type="checkbox" id="Topping1" name="Topping1" value="Margherita">
-        <label for="Topping1"> Margherita</label><br>
-        <input type="checkbox" id="Topping2" name="Topping2" value="Cheese burger">
-        <label for="Topping2"> Cheese Burger</label><br>
-        <input type="checkbox" id="Topping3" name="Topping3" value="Ham and Cheese">
-        <label for="Topping3"> Ham and Cheese</label>
-      </form>
+    <form action="/action_page.php">
+      <table style="margin-left: auto; margin-right: auto">
+        <tr>
+          <td style="text-align: right; padding-right: 15px">
+            <label for="name">*Name:</label>
+          </td>
+          <td style="text-align: right; padding-right: 15px">
+            <input type="text" id="name" name="name" value="" />
+          </td>
+          <td style="text-align: right; padding-right: 15px">
+            <label for="address">*Tel:</label>
+          </td>
+          <td style="text-align: right">
+            <input type="text" id="tel" name="tel" value="" />
+          </td>
+        </tr>
+        <tr>
+          <td style="text-align: right; padding-right: 15px">
+            <label for="address">*Address:</label>
+          </td>
+          <td style="text-align: right; padding-right: 15px">
+            <input type="text" id="address" name="address" value="" />
+          </td>
+          <td style="text-align: right; padding-right: 15px">
+            <label for="email">*Email:</label>
+          </td>
+          <td style="text-align: right">
+            <input type="text" id="email" name="email" value="" />
+          </td>
+        </tr>
+        <tr>
+          <td style="text-align: right; padding-right: 15px">
+            <label for="town">*Town/city:</label>
+          </td>
+          <td style="text-align: right; padding-right: 15px">
+            <input type="text" id="town" name="town" value="" />
+          </td>
+        </tr>
+        <tr>
+          <td style="text-align: right; padding-right: 15px">
+            <label for="postcode">*Postcode:</label>
+          </td>
+          <td style="text-align: right; padding-right: 15px">
+            <input type="text" id="postcode" name="postcode" value="" />
+          </td>
+        </tr>
+      </table>
 
-      <input type="submit" value="Submit order" />
+      <p style="text-align: center">* required fields</p>
+
+      <table style="margin-left: auto; margin-right: auto">
+        <tr>
+          <td>
+            <h3>Topping</h3>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input
+              type="checkbox"
+              id="Topping1"
+              name="Topping1"
+              value="Margherita"
+            />
+            <label for="Topping1"> Margherita</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input
+              type="checkbox"
+              id="Topping2"
+              name="Topping2"
+              value="Cheese burger"
+            />
+            <label for="Topping2"> Cheese Burger</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input
+              type="checkbox"
+              id="Topping3"
+              name="Topping3"
+              value="Ham and Cheese"
+            />
+            <label for="Topping3"> Ham and Cheese</label>
+          </td>
+        </tr>
+      </table>
+
+      <div style="text-align: center">
+        <input type="submit" value="Submit order" />
+      </div>
     </form>
   </body>
 </html>
