@@ -16,3 +16,48 @@ body
     text-align: center;
 }
 
+.input-box {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #999;
+    outline: none;
+}
+button {
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.create-account-btn {
+    background-color: #3D8361;
+}
+
+.name-icon {
+    padding-left: 25px;
+    background: url("name-icon.png") no-repeat left;
+    background-size: 20px;
+}
+
+.telephone-icon{
+    padding-left: 25px;
+    background: url("telephone-icon.png") no-repeat left;
+    background-size: 20px;
+}
+
+.email-icon{
+    padding-left: 25px;
+    background: url("email-icon.png") no-repeat left;
+    background-size: 20px;
+}
+.password-icon {
+    padding-left: 25px;
+    background: url("password-icon.png") no-repeat left;
+    background-size: 20px;
+}
