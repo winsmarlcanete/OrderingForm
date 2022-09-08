@@ -44,25 +44,45 @@ button {
     text-align: right;
 }
 
-.name-icon {
-    padding-left: 25px;
-    background: url("name-icon.png") no-repeat left;
-    background-size: 20px;
-}
 
-.telephone-icon{
-    padding-left: 25px;
-    background: url("telephone-icon.png") no-repeat left;
-    background-size: 20px;
-}
 
-.email-icon{
-    padding-left: 25px;
-    background: url("email-icon.png") no-repeat left;
-    background-size: 20px;
+#Text1 {
+    background-image: url("name-icon.png");
+    position: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+
 }
-.password-icon {
-    padding-left: 25px;
-    background: url("password-icon.png") no-repeat left;
-    background-size: 20px;
+#Text2 {
+    background-image: url("telephone-icon.png");
+    position: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+
+}
+#Text3 {
+    background-image: url("email-icon.png");
+    position: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-size: 28px;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+
+}
+#Text4 {
+    background-image: url("password-icon.png");
+    position: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+
 }
