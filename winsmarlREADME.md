@@ -1,4 +1,4 @@
-Academic Work - Collaborated 
+Academic Work - Group 
 
 1st Sem 2022
 
