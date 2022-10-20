@@ -1,10 +1,15 @@
-Academic Work - Group 📝
+##Academic Work - Group 📝
 
 1st Sem 2022
 
 Leader:  Jhervince Rada
 
-Members: Winsmarl Cañete, Marc Laurence Supan, Adrian Bañares, Josua Malbas, Andrei Lanting
+Members: 
+- Winsmarl Cañete 
+- Marc Laurence Supan
+- Adrian Bañares 
+- Josua Malbas 
+- Andrei Lanting
          
          
 Description: 
@@ -16,17 +21,17 @@ Description:
          
 My main contribution:
         
-   Did the whole task 2 (Other members were having a hard time so I did the whole task).
+-Did the whole task 2 (Other members were having a hard time so I did the whole task).
    
 
 What I Learned:
 
-   Sometimes, it is okay to not handle everything 😁😁
+-Sometimes, it is okay to not handle everything 😁😁
          
                
 Note:
 
-   Our school did not sponsor GitHub nor recommended to us. I just suggested this to our group since it can enhance our productivity.
+-Our school did not sponsor GitHub nor recommended to us. I just suggested this to our group since it can enhance our productivity.
    Also, I have no idea how to deploy this. But it can be viewed via https://htmlpreview.github.io/ (Just paste the html link of task2.html).
    
 ✍️: Winsmarl Cañete
